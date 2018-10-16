@@ -1,0 +1,68 @@
+==== Section 1: Command Line
+=========
+
+mkdir[directory-name]
+	make new folder with [directory-name]
+
+ls
+	displays a list of files and folders in current folder
+
+cd [directory-name]
+	goes into the directory [directory-name]
+
+touch [file-extension]
+	creates a new file with name [file-extension]
+
+cat [filename]
+	displays file content
+
+pwd
+	(print working directory) displays the current working directory
+
+==== Section 2: Basic Git
+==========
+
+git init
+	initialise a new git repository
+
+wooden box: working directory
+cardboard box: staging area
+safe box: repository
+
+git status
+	tells us the status of our working directory
+	files in red: in working directory but not in staging area
+	files in green: in staging area but not in repository
+
+git add
+	tells git to start tracking a file
+	i.e. move stuff from working directory to staging area
+	need to add again after making changes to the file
+
+git commit -m "MESSAGE"
+	commits changes to the repository
+	i.e. move stuff from staging area to repository
+	the message in "" is compulsory, to tell yourself (and maybe git) why you're doing what you're doing
+
+git diff
+	shows changes between working directory, staging area and repository
+
+git log
+	shows history of changes made
+
+git log --oneline
+	shows history concisely in one line
+
+==== Git Summary so far
+==========
+
+Commit: (verb) git adds file to repository
+Commit: (noun) number of times you have committed sth
+
+Basic git workflow: make changes -> stage (git add) -> finalise (git commit)
+
+==== Section 3
+============
+
+git checkout
+git checkout master
