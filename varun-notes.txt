@@ -57,5 +57,12 @@ Basic git workflow:
 2. Stage (Add)
 3. Finalize (Commit)
 
+===== Section 3: Time travelling and multiverse
+==============
+
+git checkout [commit-id]
+	switches workspace to the version at that commit-id
+
+
 
 
