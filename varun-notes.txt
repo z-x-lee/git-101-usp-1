@@ -45,5 +45,17 @@ git log
 git log --oneline
 	shows us all the commits in oneline
 
+===== Git Summary
+============
+
+Commit:
+<explain>
+
+Basic git workflow:
+
+1. Change
+2. Stage (Add)
+3. Finalize (Commit)
+
 
 
