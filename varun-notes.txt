@@ -36,4 +36,14 @@ git commit -m "MESSAGE"
 	commit changes to the repository
 	(move stuff from wooden box to metal box)
 
+git diff
+	shows us what has changed between our working directory, staging area and repo
+
+git log
+	shows us all the commits that were made
+
+git log --oneline
+	shows us all the commits in oneline
+
+
 
